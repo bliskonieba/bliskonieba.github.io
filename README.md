@@ -1,116 +1,71 @@
-[![Material Design for Bootstrap](https://mdbootstrap.com/wp-content/uploads/2018/01/corporate.jpg)](https://mdbootstrap.com/freebies/portfolio-template/)
+# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-# Bootstrap 4 & Material Design - Portfolio Template 
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-Free, responsive Portfolio template containing stunning, full-page Intro and different types of galleries. Built with the newest Bootstrap 4 and Material Design. MIT license – free for personal and commercial use.
+## Preview
 
-________
+[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
-# Live Previews: 
-## https://mdbootstrap.com/freebies/portfolio-template/
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
-# Most important features:
+## Status
 
-1. Fully responsive
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
 
-2. Plenty of useful components
+## Download and Installation
 
-3. Easy installation
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+* Install via npm: `npm i startbootstrap-resume`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
-4. Easy to use and customize
+## Usage
 
-5. Active community
+### Basic Usage
 
-6. Dedicated support forum
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-7. Detailed documentation
+### Advanced Usage
 
-# Demo:  
-**Main demo**: https://mdbootstrap.com/previews/free-templates/portfolio/full-page-gallery.html
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-# MDB Quick Start (5 minutes):
-**Written Tutorial**: https://mdbootstrap.com/mdb-quick-start/
+#### Gulp Tasks
 
-**Video Tutorial**:https://www.youtube.com/watch?v=cXTThxoywNQ&t=9s
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-**npm installation**
-You can install MDBootstrap using NPM:
-- `npm install mdbootstrap`
+## Bugs and Issues
 
-# Additional tutorials:
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
 
-**MDB - Bootstrap tutorial**: https://mdbootstrap.com/bootstrap-tutorial/
+## Custom Builds
 
-**MDB - Wordpress tutorial**: https://mdbootstrap.com/wordpress-tutorial/
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-# Documentation:
+## About
 
-**Huge, detailed documentation avilable online on**: https://mdbootstrap.com/
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-# PRO version:
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-**MDB Portfolio Template Pro (jQuery version)**: https://mdbootstrap.com/product/portfolio-theme/
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-# Highlights:  
-**Bootstrap 4**  
-Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-**Material Design for Bootstrap**  
-This template is built with MDBootstrap - powerful and free UI Kit, containing 400+ material UI elements, 600+ material icons, 74 CSS animations, SASS files, templates, tutorials and many more.  
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-**Free for personal and commercial use**  
-Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.   
+## Copyright and License
 
-**10 fresh ready to use templates**  
-We are going further and giving to you ready to use templates! Use them as you like, as an inspiration, prototype or final product for your customers.  
-
-**Fully responsive**  
-It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB looks great on each screen.
-
-**Technical support**  
-We really care about reliability. If you have any questions - do not hesitate to contact us.  
-
-**Active community**  
-Our society grows day by day. Visit **our forum** and check how it is to be a part of our family.  
-
-**Flex box**  
-MDB fully suppports Flex Box. You can forget about alignment issues.  
-
-**Latest jQuery**  
-MDB is integrated with newest jQuery, therefore you can use all the newest features which comes along with it.  
-
-**Detailed documentation:**  
-We give you detailed documentation at your disposal. It will help you to implement your ideas easily.  
-
-A big **thank you to all our users** who are working with us to improve the software. We wouldn't be where we are without you.  
-
-# Useful Links:  
-
-Getting started: https://mdbootstrap.com/getting-started/  
-
-5 min quick start: https://mdbootstrap.com/mdb-quick-start/  
-
-Material Design + Bootstrap Tutorial: https://mdbootstrap.com/bootstrap-tutorial/  
-
-Material Design + WordPress Tutorial: https://mdbootstrap.com/wordpress-tutorial/  
-
-Other Freebies: https://mdbootstrap.com/freebies/  
-
-Premium Templates: https://mdbootstrap.com/templates/  
-
-
-# Social Media:  
-
-Twitter: https://twitter.com/MDBootstrap  
-
-Facebook: https://www.facebook.com/mdbootstrap  
-
-Pinterest: https://pl.pinterest.com/mdbootstrap 
-
-Google+: https://plus.google.com/u/0/b/107863090883699620484/+Mdbootstrap/posts  
-
-Dribbble: https://dribbble.com/mdbootstrap
-
-LinkedIn: https://www.linkedin.com/company/material-design-for-bootstrap
-
-# Visit our website: https://mdbootstrap.com/
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
