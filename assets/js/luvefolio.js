@@ -2,17 +2,17 @@
 	"use strict";
 	var parallaxContent,
         $navbar_transparent;
-	
+
 	$(document).ready(function(){
-		
+
 		// Parallax Content Hero
 		parallaxContent = $('div[data-parallax="true"]');
 		var $navscroll = $(".navscroll");
 		var $bgScroll = $navscroll.data("bgscroll");
 		var $bgunscroll = $navscroll.data("bgunscroll");
-		
+
 		// console.log($navscroll.offset().top);
-		
+
 		// Navigation
 		if ($navscroll.offset().top > 100) {
 			$navscroll.addClass($bgScroll);
@@ -23,7 +23,7 @@
 			$navscroll.addClass($bgunscroll);
 			$navscroll.removeClass("with-shadow isScroll");
 		}
-		
+
 		var $root = $('html, body');
         $('.onepage a[href^="#"]').on("click", function(){
             $root.animate({
@@ -32,11 +32,11 @@
 
 			return false;
         });
-		
-		
-		$(window).on("scroll", function(){		
-			
-				if($navscroll.length){					
+
+
+		$(window).on("scroll", function(){
+
+				if($navscroll.length){
 					var top = 100;
 					if ($(window).scrollTop() >= top) {
 
@@ -49,25 +49,25 @@
 						$navscroll.removeClass("with-shadow isScroll");
 					}
 				}
-				
+
 				if(parallaxContent.length){
 					parallaxContent.css({
 						"transform":"translateY(-" + ($(this).scrollTop() / 3) + "px)",
 						"-webkit-transform":"translateY(-" + ($(this).scrollTop() / 3) + "px)",
 						"-o-transform":"translateY(-" + ($(this).scrollTop() / 3) + "px)",
-						"-ms-transform":"translateY(-" + ($(this).scrollTop() / 3) + "px)"				
+						"-ms-transform":"translateY(-" + ($(this).scrollTop() / 3) + "px)"
 					});
 				}
-			
-				
-				
-		});	
-			
-	
+
+
+
+		});
+
+
 		// Typing Text
 		if($(".typing").length){
 			$(".typing").each(function(){
-				var typed1 = $(this).data("typed1"),		
+				var typed1 = $(this).data("typed1"),
 					typed2 = $(this).data("typed2"),
 					isLooping = $(this).data("looping");
 				var typed = new Typed(this, {
@@ -76,40 +76,40 @@
 					  backSpeed: 50,
 					  loop:isLooping,
 					  showCursor:false
-					});	
+					});
 			});
 		}
-		
-		// progress animation		
+
+		// progress animation
 		var hello_progressbar = $(".hello-progressbar");
-		if(hello_progressbar.length){				
+		if(hello_progressbar.length){
 			  $(".progress-bar").each(function() {
 				  $(this).waypoint(function() {
 				  var progressBar = $(".progress-bar");
 				  progressBar.each(function(i){
-					  
+
 					  var progress_value = $(this).attr("aria-valuenow") ;
-					  
+
 					  $(this).find(".progress-value").text(progress_value + "%");
-					    
+
 					  $(this).css({
-						  
+
 						  "width": progress_value + "%",
 						  "transition-delay": "."+((i+1)/.5) + "s"
 						 });
-					  
+
 				  });
 			  }, {
 				  offset: 'bottom-in-view'
 				});
-			   });			
-			
+			   });
+
 		}
-		
-		
+
+
 		var tslide = $(".t-slide");
 		if(tslide.length){
-			
+
 			tslide.owlCarousel({
 				loop:true,
 				margin:10,
@@ -128,13 +128,13 @@
 				autoplay:true,
 				autoplayTimeout:3500,
 				autoplayHoverPause:true
-				
+
 			});
-			
+
 		}
-        
-        
-        
+
+
+
 		var related_articles = $(".related-articles.owl-carousel");
 		if(related_articles.length){
 			related_articles.owlCarousel({
@@ -156,10 +156,10 @@
 				autoplay:true,
 				autoplayTimeout:3500,
 				autoplayHoverPause:true,
-				dots:false	
-			});			
+				dots:false
+			});
 		}
-        
+
         var portfolio_slide = $(".portfolio-slideshow.owl-carousel");
         if(portfolio_slide.length){
             portfolio_slide.owlCarousel({
@@ -181,10 +181,10 @@
 				autoplay:false,
 				autoplayTimeout:3500,
 				autoplayHoverPause:true,
-				dots:true	
-			});	            
+				dots:true
+			});
         }
-        
+
         var milestones_slideshow = $(".milestones-slide.owl-theme");
         if(milestones_slideshow.length){
             milestones_slideshow.owlCarousel({
@@ -207,18 +207,18 @@
 				autoplay:false,
 				autoplayTimeout:3500,
 				autoplayHoverPause:true,
-				dots:false	
-			});	            
+				dots:false
+			});
         }
-        
+
 		// Counter Number
-		var factnum = $(".factnum");		
-		if(factnum.length){			
-			factnum.counterUp();			
+		var factnum = $(".factnum");
+		if(factnum.length){
+			factnum.counterUp();
 		}
-        
-        
-        
+
+
+
         /* Responsive Toggle Navigation */
         var $navbar_toggler = $(".navbar-toggler");
         var $mainmenu = $("#mainMenu");
@@ -227,20 +227,20 @@
                 $(this).toggleClass("active");
                 $mainmenu.toggleClass("active");
             });
-            
+
             $(".nav-item.dropdown .nav-link").on("click", function(e){
                e.preventDefault();
                 $(".dropdown-content").removeClass("active");
                 $(this).next().addClass("active");
-                
+
             });
-            
-            
+
+
         }
-        
-        
-		
+
+
+
 	});
-	
-	
+
+
 })(jQuery);
