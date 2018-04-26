@@ -144,7 +144,7 @@ a:hover{
 .navbar .navbar-brand:focus, 
 .navbar .navbar-brand:hover{
     color:#FFFFFF;
-    font-size:.975rem;
+    font-size:1.975rem;
 }
 .navbar-toggler{
     color:#FFF;
